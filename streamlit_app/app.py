@@ -2,10 +2,7 @@ import streamlit as st
 import openai
 import speech_recognition as sr
 import os
-openai.api_type = ""
-openai.api_base = ""
-openai.api_version = ""
-openai.api_key= ""
+openai.api_key= "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"
 # Streamlit UI
 st.title("Speech to Text and OpenAI Converter")
 st.markdown("This web app converts your speech into text and sends it to OpenAI for responses.")
